@@ -1,2 +1,2 @@
 # blog-code
-repor for my blog small code samples 
+my blog code samples  : http://mromeh.com/
