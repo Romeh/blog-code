@@ -49,7 +49,7 @@ public class RestAPI {
 
 	@PostMapping
 	public void createCustomer(@Valid @RequestBody CustomerDto customerDto) {
-		customerService.createCustomer(customerMapper.mapeDtoToCustomer(customerDto));
+		customerService.createCustomer(customerMapper.mapDtoToCustomer(customerDto));
 	}
 
 	@ExceptionHandler
